@@ -76,7 +76,7 @@ section {
     #home .overlay {
         padding-top: 90px;
         background-color: rgba(35, 133, 161,0.7); /*.75 opacity of the color so that background image is visible*/
-        min-height: 600px;
+        min-height: 500px;
         color: #fff;
     }
 
