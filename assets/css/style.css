@@ -74,11 +74,13 @@ section {
 }
     /*STYLE FOR OVERLAY CLASS - WHICH IS ABOVE IMAGE WITH OPACITY/TRANSPARENCY 0.75*/
     #home .overlay {
-        padding-top: 90px;
+        padding-top: 60px;
         background-color: rgba(35, 133, 161,0.7); /*.75 opacity of the color so that background image is visible*/
         min-height: 500px;
         color: #fff;
     }
+
+
 
     #home h1 {
         /*padding-top: 80px;*/
@@ -184,3 +186,22 @@ footer {
         color: #fff;
         text-decoration: none;
     }
+    @media screen and (max-width: 400px) {
+      #home .overlay {
+        background-color: rgba(0, 0, 0,0.3);
+        min-height: 300px;
+      }
+      #home h1 {
+        font-size: 20px;
+        color: #fff;
+      }
+      #home h2 {
+        /*color: black;*/
+        color: #fff;
+        font-size: 18px;
+      }
+      #home {
+          background: url("http://zippy.gfycat.com/KindlyOilyCockatiel.gif") no-repeat center center; /*Full Witdth background image*/
+          padding: 100;
+      }
+}
