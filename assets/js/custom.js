@@ -11,11 +11,11 @@
     100% Free To use For Personal And Commercial Use.
 
     IN EXCHANGE JUST TELL PEOPLE ABOUT THIS WEBSITE
-   
+
 ========================================================  */
 
 $(document).ready(function () {
-    // SCROLL SCRIPTS 
+    // SCROLL SCRIPTS
         $('.scroll-me a').bind('click', function (event) { //just pass scroll-me class and start scrolling
         var $anchor = $(this);
         $('html, body').stop().animate({
@@ -27,4 +27,18 @@ $(document).ready(function () {
         $(function () {
             $(".player").mb_YTPlayer(); // .player - class to add for playing video ( see the div above to understand)
         });
+
+        var texts = ["Hi,", "I'm Matt.", "Nice To Meet You.", "If Anyone Ever Tells You To Sweep The Leg...", "Don't Do It."]
+        var count = 0;
+        var sweep = function(){
+          $('#sweep').text(texts[count]);
+          count < 4 ? count++ : count = 0;
+
+        };
+
+
+        setInterval(sweep, 2000);
+
+
+
 });
