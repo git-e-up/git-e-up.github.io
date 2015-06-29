@@ -22,6 +22,19 @@
 #matt {
   border-radius: 50%;
 }
+.pic {
+  display:block;
+  margin:auto;
+  width: 40%;
+}
+.hite {
+  min-height:300px !important;
+  max-height:300px !important;
+}
+
+.purple {
+  background-color: #BDA0CB;
+}
 
 @import url(http://fonts.googleapis.com/css?family=Roboto); /* GOOGLE FREE FONTS */
 
@@ -78,7 +91,7 @@ section {
     /*STYLE FOR OVERLAY CLASS - WHICH IS ABOVE IMAGE WITH OPACITY/TRANSPARENCY 0.75*/
     #home .overlay {
         padding-top: 60px;
-        background-color: rgba(35, 133, 161,0.7); /*.75 opacity of the color so that background image is visible*/
+        background-color: rgba(0,0,0,.4); /*.75 opacity of the color so that background image is visible*/
         min-height: 600px;
         color: #fff;
 

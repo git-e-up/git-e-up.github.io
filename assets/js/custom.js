@@ -36,8 +36,13 @@ $(document).ready(function () {
 
         };
 
-
         setInterval(sweep, 2000);
+
+        var pic = function() {
+          $('.pic').attr('src', 'assets/img/Me.jpg')
+        }
+
+        setInterval(pic, 6000);
 
 
 
