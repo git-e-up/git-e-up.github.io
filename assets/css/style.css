@@ -110,7 +110,10 @@ section {
     }
 
 /*SMPLE CLASS TO ADJUST SECTION PADDING & HEIGHT*/
-
+    #about {
+      background: rgba(135, 233, 161,0.6);
+      font-family: 'Browallia New';
+    }
 /*CLASS TO FORMAT TEXT*/
 .p-cls {
     padding-top: 30px;
@@ -221,8 +224,12 @@ footer {
           background: url("http://zippy.gfycat.com/KindlyOilyCockatiel.gif") no-repeat center center; /*Full Witdth background image*/
           padding: 100;
       }
+      body {
+        background: url("assets/img/chicago.gif");
+      }
+
       /*#video-sec {
         background: url("assets/img/karatekid.gif");
         /*data-property: none;*/
-      }*/
+      } */
 }
