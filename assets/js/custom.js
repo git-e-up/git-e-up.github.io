@@ -44,6 +44,15 @@ $(document).ready(function () {
 
         setInterval(pic, 6000);
 
-
+        // var resize = function(){
+        //   console.log('resize called');
+        //   var width = $(window).width();
+        //   if(width <= 500){
+        //     $('#video-sec').removeID('#video-sec')add;
+        //   }
+        //
+        //
+        // };
+        // resize //trigger the resize event on page load.
 
 });
