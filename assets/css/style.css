@@ -246,9 +246,14 @@ footer {
           /*Full Witdth background image*/
           padding: 100;
       }
-      body {
+
+      #works {
+        color: rgba(60, 60, 90, 1);
+      }
+      #home {
         background: url("assets/img/chicago.gif");
       }
+
 
       /*#video-sec {
         background: url("assets/img/karatekid.gif");
