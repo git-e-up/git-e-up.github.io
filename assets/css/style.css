@@ -19,6 +19,9 @@
 /*================================
     GENERAL STYLES
 ==================================*/
+#matt {
+  border-radius: 50%;
+}
 
 @import url(http://fonts.googleapis.com/css?family=Roboto); /* GOOGLE FREE FONTS */
 
@@ -76,7 +79,7 @@ section {
     #home .overlay {
         padding-top: 60px;
         background-color: rgba(35, 133, 161,0.7); /*.75 opacity of the color so that background image is visible*/
-        min-height: 500px;
+        min-height: 600px;
         color: #fff;
 
     }
@@ -144,7 +147,7 @@ section {
 }
 
     #video-sec .overlay {
-        background-color: rgba(0, 0, 0, 0.85);
+        background-color: rgba(0, 0, 0, 0.55);
         min-height: 300px;
         color: #fff;
     }
