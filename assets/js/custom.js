@@ -28,11 +28,11 @@ $(document).ready(function () {
             $(".player").mb_YTPlayer(); // .player - class to add for playing video ( see the div above to understand)
         });
 
-        var texts = ["Before you go...", "Remember", "If anyone ever tells you to", "Sweep the leg", " ", "Don't", " ", " ",]
+        var texts = ["Before you go...", "Remember", "If anyone ever tells you to", "Sweep the leg", " ", "Don't", " "]
         var count = 0;
         var sweep = function(){
           $('#sweep').text(texts[count]);
-          count < 9 ? count++ : count = 0;
+          count < 7 ? count++ : count = 0;
 
         };
 
