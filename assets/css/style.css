@@ -25,7 +25,8 @@
 .pic {
   display:block;
   margin:auto;
-  width: 40%;
+  width: 55%;
+  border-radius: 7%
 }
 .hite {
   min-height:300px !important;
@@ -39,7 +40,7 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto); /* GOOGLE FREE FONTS */
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Trebuchet MS", Helvetica, sans-serif
 }
 
 section {
@@ -93,8 +94,8 @@ section {
         padding-top: 60px;
         background-color: rgba(0,0,0,.4); /*.75 opacity of the color so that background image is visible*/
         min-height: 600px;
-        color: #fff;
-
+        /*color: #fff;*/
+        color: rgba(220, 220, 250, 1);
     }
 
 
@@ -103,20 +104,20 @@ section {
         /*padding-top: 80px;*/
         font-weight: 900;
         font-size: 80px;
-        font-family: 'Browallia New';
+        /*font-family: 'Browallia New';*/
     }
     #home p {
       /*color: black;*/
     }
     #home h2 {
-        font-family: 'Browallia New';
+        /*font-family: 'Browallia New';*/
     }
 
 /*SMPLE CLASS TO ADJUST SECTION PADDING & HEIGHT*/
 #about {
-    background: rgba(235, 198, 77,0.8);
-    font-family: 'Browallia New';
-    color: rgba(50, 50, 50, 1);
+    background: rgba(235, 198, 77,0.4);
+    /*font-family: 'Browallia New';*/
+    color: rgba(220, 220, 250, 1);
 }
     #about h1 {
         font-size: 80px;
@@ -130,6 +131,15 @@ section {
     padding-top: 30px;
     padding-bottom: 40px;
 }
+
+#works {
+  color: rgba(220, 220, 250, 1);
+}
+
+#contact {
+  color: rgba(220, 220, 250, 1);
+}
+
 
 /*======================================
     PARALLAX LIKE / STATS SECTION STYLES
@@ -232,7 +242,8 @@ footer {
         font-size: 18px;
       }
       #home {
-          background: url("http://zippy.gfycat.com/KindlyOilyCockatiel.gif") no-repeat center center; /*Full Witdth background image*/
+          /*background: url("http://zippy.gfycat.com/KindlyOilyCockatiel.gif") no-repeat center center; */
+          /*Full Witdth background image*/
           padding: 100;
       }
       body {
