@@ -108,11 +108,22 @@ section {
     #home p {
       /*color: black;*/
     }
+    #home h2 {
+        font-family: 'Browallia New';
+    }
 
 /*SMPLE CLASS TO ADJUST SECTION PADDING & HEIGHT*/
-    #about {
-      background: rgba(135, 233, 161,0.6);
-      font-family: 'Browallia New';
+#about {
+    background: rgba(235, 198, 77,0.8);
+    font-family: 'Browallia New';
+    color: rgba(50, 50, 50, 1);
+}
+    #about h1 {
+        font-size: 80px;
+    }
+
+    #about p {
+        font-size: 18px;
     }
 /*CLASS TO FORMAT TEXT*/
 .p-cls {
