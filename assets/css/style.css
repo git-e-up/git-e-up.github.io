@@ -245,6 +245,7 @@ footer {
       #home .overlay {
         background-color: rgba(0, 0, 0,0.3);
         min-height: 300px;
+        /*background: url("assets/img/chicago.gif") !important;*/
       }
       /*#home
 
@@ -262,10 +263,12 @@ footer {
       #works {
         color: rgba(60, 60, 90, 1);
       }
-      #home {
-        background: url("assets/img/chicago.gif") !important;
+      /*#home {
+        background-image: url("assets/img/chicago.gif") !important;
+      }*/
+      .player2 {
+        background-image: url("chicago.gif") !important;
       }
-
 
 
   }
