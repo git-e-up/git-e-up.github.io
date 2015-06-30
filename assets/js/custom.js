@@ -39,7 +39,7 @@ $(document).ready(function () {
         setInterval(sweep, 2000);
 
         var pic = function() {
-          $('.pic').attr('src', 'assets/img/Me.jpg')
+          $('.pic').attr('src', 'assets/img/Me.jpg');
         }
 
         setInterval(pic, 6000);
@@ -48,7 +48,7 @@ $(document).ready(function () {
           console.log('resize called');
           var width = $(window).width();
           if(width <= 500){
-            $('#home').addClass('.player2');
+            $('#home').addClass(".player2");
           };
 
 
