@@ -241,25 +241,23 @@ footer {
         color: #fff;
         text-decoration: none;
     }
-    @media screen and (max-width: 400px) {
+  @media screen and (max-width: 400px) {
       #home .overlay {
         background-color: rgba(0, 0, 0,0.3);
         min-height: 300px;
       }
+      /*#home
+
       #home h1 {
         font-size: 30px;
         color: #fff;
       }
       #home h2 {
-        /*color: black;*/
+
         color: #fff;
         font-size: 22px;
-      }
-      #home {
-          /*background: url("http://zippy.gfycat.com/KindlyOilyCockatiel.gif") no-repeat center center; */
-          /*Full Witdth background image*/
-          padding: 100;
-      }
+      }*/
+
 
       #works {
         color: rgba(60, 60, 90, 1);
@@ -269,8 +267,5 @@ footer {
       }
 
 
-      /*#video-sec {
-        background: url("assets/img/karatekid.gif");
-        /*data-property: none;*/
-      } */
-}
+
+  }
