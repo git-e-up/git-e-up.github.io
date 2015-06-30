@@ -26,7 +26,8 @@
   display:block;
   margin:auto;
   width: 55%;
-  border-radius: 7%
+  /*border-radius: 7%;*/
+  opacity: .7;
 }
 .hite {
   min-height:300px !important;
@@ -36,6 +37,8 @@
 .purple {
   background-color: #BDA0CB;
 }
+
+
 
 @import url(http://fonts.googleapis.com/css?family=Roboto); /* GOOGLE FREE FONTS */
 
@@ -121,10 +124,15 @@ section {
 }
     #about h1 {
         font-size: 80px;
+        opacity: 1 !important;
     }
 
     #about p {
         font-size: 18px;
+    }
+
+    #about .op {
+      background: rgba(235, 198, 77,0.5);
     }
 /*CLASS TO FORMAT TEXT*/
 .p-cls {
@@ -133,12 +141,18 @@ section {
 }
 
 #works {
-  color: rgba(220, 220, 250, 1);
+
 }
+    #works .op {
+      background: rgba(255,255,255,.8);
+      color: rgba(100, 100, 130, 1);
+    }
 
 #contact {
   color: rgba(220, 220, 250, 1);
 }
+
+
 
 
 /*======================================
@@ -233,13 +247,13 @@ footer {
         min-height: 300px;
       }
       #home h1 {
-        font-size: 20px;
+        font-size: 30px;
         color: #fff;
       }
       #home h2 {
         /*color: black;*/
         color: #fff;
-        font-size: 18px;
+        font-size: 22px;
       }
       #home {
           /*background: url("http://zippy.gfycat.com/KindlyOilyCockatiel.gif") no-repeat center center; */
@@ -251,7 +265,7 @@ footer {
         color: rgba(60, 60, 90, 1);
       }
       #home {
-        background: url("assets/img/chicago.gif");
+        background: url("assets/img/chicago.gif") !important;
       }
 
 
