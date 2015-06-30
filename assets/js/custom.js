@@ -48,7 +48,7 @@ $(document).ready(function () {
         //   console.log('resize called');
         //   var width = $(window).width();
         //   if(width <= 500){
-        //     $('#home').addClass("player2");
+        //     $('#home').addClass(".player2");
         //   };
         //
         //
@@ -57,7 +57,7 @@ $(document).ready(function () {
         /////////////////
 
         // $( window ).resize(function() {
-        //   $( "#home").addClass("player2");
+        //   $( "#video-sec").addClass("player2");
         // });
 
 });
