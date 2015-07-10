@@ -40,7 +40,25 @@ $(document).ready(function () {
 
         var pic = function() {
           $('.pic').attr('src', 'assets/img/Me.jpg');
-        }
+        };
+
+
+        var three = function() {
+          $('.pic').attr('alt', '3');
+        };
+
+        var two = function() {
+          $('.pic').attr('alt', '2');
+        };
+
+        var one = function() {
+          $('.pic').attr('alt', "here\'s me");
+        };
+
+
+        setInterval(three, 3000);
+        setInterval(two, 4000);
+        setInterval(one, 5000);
 
         setInterval(pic, 6000);
 
