@@ -241,7 +241,7 @@ footer {
         color: #fff;
         text-decoration: none;
     }
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 700px) {
       #home .overlay {
         background-color: rgba(0, 0, 0,0.3);
         min-height: 300px;
@@ -259,13 +259,21 @@ footer {
         font-size: 22px;
       }*/
       body {
-        background-size: contain; 
+        background-size: contain;
+      }
+      #video-sec {
+        background-size: cover;
       }
 
-      #works {
-        color: rgba(60, 60, 90, 1);
-      }
+      /*#works {
+        background: rgba(0,0,0,0);
+        color: rgba(60, 60, 90, 0);
+      }*/
 
+      #works .op {
+        background: rgba(255,255,255,.2);
+        color: rgba(100, 100, 130, 1);
+      }
       /*#home {
         background-image: url("assets/img/chicago.gif") !important;
       }*/
