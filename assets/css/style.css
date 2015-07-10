@@ -258,7 +258,9 @@ footer {
         color: #fff;
         font-size: 22px;
       }*/
-
+      body {
+        background-size: contain; 
+      }
 
       #works {
         color: rgba(60, 60, 90, 1);
@@ -267,8 +269,8 @@ footer {
       /*#home {
         background-image: url("assets/img/chicago.gif") !important;
       }*/
-      .player2 {
-        background: url("assets/img/chicago.gif") !important;
+      /*.player2 {
+        background: url("assets/img/chicago.gif") !important;*/
 
       }
 
