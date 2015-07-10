@@ -31,6 +31,7 @@ $(document).ready(function () {
           }
           else {
             $("body").css('background-image', 'url(assets/img/chicago.gif)');
+            $("#video-sec").css('background-image', 'url(assets/img/karate-kid.gif)');
           }
 
         });
