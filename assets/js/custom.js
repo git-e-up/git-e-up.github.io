@@ -25,7 +25,14 @@ $(document).ready(function () {
         });
     // BACKGROUND VIDEO SCRIPTS
         $(function () {
+          var width = $(window).width();
+          if (width > 736) {
             $(".player").mb_YTPlayer(); // .player - class to add for playing video ( see the div above to understand)
+          }
+          else {
+            $("body").css('background-image', 'url(assets/img/chicago.gif)');
+          }
+
         });
 
         var texts = ["Before you go...", "Remember", "If anyone ever tells you to", "Sweep the leg", " ", "Don't", " "]
@@ -44,15 +51,33 @@ $(document).ready(function () {
 
 
         var three = function() {
-          $('.pic').attr('alt', '3');
+          var width = $(window).width();
+          if (width > 736) {
+            $('.pic').attr('alt', '3');
+          }
+          else {
+            $('.pic').attr('alt', "It appears you're on a phone or have your browser on too narrow of a setting to view the video. You get this background gif instead :) ");
+          }
         };
 
         var two = function() {
-          $('.pic').attr('alt', '2');
+          var width = $(window).width();
+          if (width > 736) {
+            $('.pic').attr('alt', '2');
+          }
+          else {
+            $('.pic').attr('alt', "It appears you're on a phone or have your browser on too narrow of a setting to view the video. You get this background gif instead :) ");
+          }
         };
 
         var one = function() {
-          $('.pic').attr('alt', "here\'s me");
+          var width = $(window).width();
+          if (width > 736) {
+            $('.pic').attr('alt', "here\'s me");
+          }
+          else {
+            $('.pic').attr('alt', "It appears you're on a phone or have your browser on too narrow of a setting to view the video. You get this background gif instead :) ");
+          }
         };
 
 

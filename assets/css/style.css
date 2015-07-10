@@ -268,7 +268,7 @@ footer {
         background-image: url("assets/img/chicago.gif") !important;
       }*/
       .player2 {
-        background-image: url("assets/img/chicago.gif") !important;
+        background: url("assets/img/chicago.gif") !important;
 
       }
 
