@@ -132,7 +132,7 @@ section {
     }
 
     #about .op {
-      background: rgba(235, 198, 77,0.5);
+      background: rgba(235, 200, 200,0.5);
     }
 /*CLASS TO FORMAT TEXT*/
 .p-cls {
@@ -146,10 +146,12 @@ section {
     #works .op {
       background: rgba(255,255,255,.8);
       color: rgba(100, 100, 130, 1);
+      font-family: "Trebuchet MS", Helvetica, sans-serif;
     }
 
 #contact {
   color: rgba(220, 220, 250, 1);
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 
@@ -241,11 +243,20 @@ footer {
         color: #fff;
         text-decoration: none;
     }
-  @media screen and (max-width: 700px) {
+
+@media screen and (max-width: 700px) {
       #home .overlay {
-        background-color: rgba(0, 0, 0,0.3);
+        background-color: rgba(255, 255, 255,0);
         min-height: 300px;
         /*background: url("assets/img/chicago.gif") !important;*/
+      }
+
+      .pic {
+        display:block;
+        margin:auto;
+        width: 52%;
+        /*border-radius: 7%;*/
+        /*opacity: .7;*/
       }
       /*#home
 
@@ -258,9 +269,10 @@ footer {
         color: #fff;
         font-size: 22px;
       }*/
-      body {
+      /*body {
         background-size: contain;
-      }
+        background-repeat: repeat-y;
+      }*/
       #video-sec {
         background-size: cover;
       }
@@ -269,10 +281,30 @@ footer {
         background: rgba(0,0,0,0);
         color: rgba(60, 60, 90, 0);
       }*/
+      #about {
+          background: rgba(200, 200, 235,1);
+          background-size: cover;
+          background-repeat: no-repeat;
+          /*font-family: 'Browallia New';*/
+          color: rgba(60, 60, 90, 1);
+      }
+      #about .op {
+        background: rgba(200, 200, 235,1);
+      }
+
+      #works {
+        background: rgba(255,255,255,1);
+      }
 
       #works .op {
-        background: rgba(255,255,255,.2);
+        background: rgba(255,255,255,1);
+        background-size: contain;
+        background-repeat: repeat-y;
         color: rgba(100, 100, 130, 1);
+      }
+
+      #works:before {
+        background: rgba(255,255,255,1);
       }
       /*#home {
         background-image: url("assets/img/chicago.gif") !important;
