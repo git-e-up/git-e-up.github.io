@@ -282,29 +282,33 @@ footer {
         color: rgba(60, 60, 90, 0);
       }*/
       #about {
-          background: rgba(200, 200, 235,1);
+          background: rgba(200, 200, 255,1);
           background-size: cover;
           background-repeat: no-repeat;
           /*font-family: 'Browallia New';*/
           color: rgba(60, 60, 90, 1);
       }
       #about .op {
-        background: rgba(200, 200, 235,1);
+        background: rgba(200, 200, 255,1);
       }
 
       #works {
-        background: rgba(255,255,255,1);
+        background: rgba(100,100,155,1);
       }
 
       #works .op {
-        background: rgba(255,255,255,1);
+        background: rgba(100,100,155,1);
         background-size: contain;
         background-repeat: repeat-y;
-        color: rgba(100, 100, 130, 1);
+        color: rgba(255, 255, 255, 1);
       }
 
       #works:before {
         background: rgba(255,255,255,1);
+      }
+
+      a {
+        color: rgba(255, 255, 255, 1);
       }
       /*#home {
         background-image: url("assets/img/chicago.gif") !important;
