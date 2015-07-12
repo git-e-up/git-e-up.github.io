@@ -118,9 +118,9 @@ section {
 
 /*SMPLE CLASS TO ADJUST SECTION PADDING & HEIGHT*/
 #about {
-    background: rgba(235, 198, 77,0.4);
+    background: rgba(235, 198, 77,0.1);
     /*font-family: 'Browallia New';*/
-    color: rgba(60, 60, 90, 1);
+    color: rgba(55, 55, 55, 1);
 }
     #about h1 {
         font-size: 80px;
@@ -132,7 +132,7 @@ section {
     }
 
     #about .op {
-      background: rgba(235, 200, 200,0.5);
+      background: rgba(220, 220, 250,0.7);
     }
 /*CLASS TO FORMAT TEXT*/
 .p-cls {
@@ -152,6 +152,10 @@ section {
 #contact {
   color: rgba(220, 220, 250, 1);
   font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#contact a {
+  color: rgba(200,200,250, 1);
 }
 
 
