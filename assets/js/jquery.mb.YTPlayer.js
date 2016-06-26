@@ -505,39 +505,39 @@ function onYouTubePlayerAPIReady() {
             YTPlayer.videoID = videoID;
             if (!jQuery.browser.msie) { //!(jQuery.browser.msie && jQuery.browser.version<9)
 
-                jQuery.getJSON(jQuery.mbYTPlayer.locationProtocol + '//gdata.youtube.com/feeds/api/videos/' + videoID + '?v=2&alt=jsonc', function (data, status, xhr) {
-
-                    YTPlayer.dataReceived = true;
-
-                    var videoData = data.data;
-
-                    YTPlayer.title = videoData.title;
-                    YTPlayer.videoData = videoData;
-
-                    if (YTPlayer.opt.ratio == "auto")
-                        if (videoData.aspectRatio && videoData.aspectRatio === "widescreen")
-                            YTPlayer.opt.ratio = "16/9";
-                        else
-                            YTPlayer.opt.ratio = "4/3";
-
-                    if (!YTPlayer.hasData) {
-                        YTPlayer.hasData = true;
-
-                        if (YTPlayer.isPlayer) {
-                            var bgndURL = YTPlayer.videoData.thumbnail.hqDefault;
-                            YTPlayer.opt.containment.css({background: "rgba(0,0,0,0.5) url(" + bgndURL + ") center center", backgroundSize: "cover"});
-                        }
-                    }
-                    jQuery(YTPlayer).trigger("YTPChanged");
-
-                });
-
-                setTimeout(function () {
-                    if (!YTPlayer.dataReceived && !YTPlayer.hasData) {
-                        YTPlayer.hasData = true;
-                        jQuery(YTPlayer).trigger("YTPChanged");
-                    }
-                }, 1500)
+                // jQuery.getJSON(jQuery.mbYTPlayer.locationProtocol + '//gdata.youtube.com/feeds/api/videos/' + videoID + '?v=2&alt=jsonc', function (data, status, xhr) {
+                //
+                //     YTPlayer.dataReceived = true;
+                //
+                //     var videoData = data.data;
+                //
+                //     YTPlayer.title = videoData.title;
+                //     YTPlayer.videoData = videoData;
+                //
+                //     if (YTPlayer.opt.ratio == "auto")
+                //         if (videoData.aspectRatio && videoData.aspectRatio === "widescreen")
+                //             YTPlayer.opt.ratio = "16/9";
+                //         else
+                //             YTPlayer.opt.ratio = "4/3";
+                //
+                //     if (!YTPlayer.hasData) {
+                //         YTPlayer.hasData = true;
+                //
+                //         if (YTPlayer.isPlayer) {
+                //             var bgndURL = YTPlayer.videoData.thumbnail.hqDefault;
+                //             YTPlayer.opt.containment.css({background: "rgba(0,0,0,0.5) url(" + bgndURL + ") center center", backgroundSize: "cover"});
+                //         }
+                //     }
+                //     jQuery(YTPlayer).trigger("YTPChanged");
+                //
+                // });
+                //
+                // setTimeout(function () {
+                //     if (!YTPlayer.dataReceived && !YTPlayer.hasData) {
+                //         YTPlayer.hasData = true;
+                //         jQuery(YTPlayer).trigger("YTPChanged");
+                //     }
+                // }, 1500)
 
             } else {
                 YTPlayer.opt.ratio == "auto" ? YTPlayer.opt.ratio = "16/9" : YTPlayer.opt.ratio;
